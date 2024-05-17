@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+  <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active">Logo</a>
+      <div id="myLinks" class="hidden">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+    <div class="topnav-desktop">
+      <a href="#home" id="color" class="active">Logo</a>
+      <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+  </div>
+
+
+    <h1 id="h_font">SORULAR</h1>
+
+    <p class="fonts">
+      1. Butona basıldığında alttaki linklerin görünmez olup olmaması,
+      genellikle bir JavaScript fonksiyonu ile kontrol edilir. Bu fonksiyon, butona tıklama olayını dinler ve alttaki linklerin görünürlüğünü değiştirmek için gerekli kodu çalıştırır.
+    </p>
+
+    <p class="fonts">
+      2. Bu işlemi responsive hale getirmek için CSS'in media queries özelliğini kullanabiliriz. Media queries, belirli ekran boyutlarına göre farklı CSS stillerini tanımlamamıza olanak sağlar. Örneğin, belirli bir ekran genişliğinde normal bir navbar gösterirken, daha küçük ekranlarda açılıp kapanabilen bir mobil navbar gösterebiliriz
+    </p>
+
+  <script src="/js/index.js"></script>
+</body>
+</html>
